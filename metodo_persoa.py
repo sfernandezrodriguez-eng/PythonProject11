@@ -1,3 +1,4 @@
+
 class Persoa:
     def __init__(self,nome,edade,dni,direccion,nacionalidade):
         self.nome = nome
