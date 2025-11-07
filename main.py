@@ -2,7 +2,7 @@
 from circulo import Circulo
 from objeto_metodo import Punto
 from metodo_persoa import Persoa
-
+from cilindro import Cilindro
 
 p1 = Punto(2,3)
 p2 = Punto(9,1)
@@ -17,4 +17,7 @@ print(manuel == Pablo)
 
 
 circulo= Circulo( 3,4,5)
-print(circulo)
+print(circulo.aCadea())
+
+cilindro = Cilindro(2,3,4,6)
+print(cilindro.aCadea(),"area : ",cilindro.obtenerArea(5),"volumen : ",cilindro.obtenerVolumen(9))
